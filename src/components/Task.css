@@ -1,0 +1,31 @@
+.task {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    background-color: honeydew;
+    margin: 6px 4px;
+    height: 40px;
+    border-radius: 12px;
+
+}
+
+.col {
+    flex: 1;
+}
+
+.task--done{
+    text-decoration: line-through;
+}
+
+.btn {
+    width: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size : x-small;
+    background-color: rgb(95, 91, 93);
+}
+
+.btn :hover {
+    background-color: rgb(253, 253, 253);
+    color : rgb(0, 0, 0);
+    outline:  rgb(252, 252, 252);
+}

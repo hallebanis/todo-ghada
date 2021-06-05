@@ -1,0 +1,38 @@
+.input{
+    height: 50px;
+    width: 80%;
+    border-radius: 10px;
+    background-color: honeydew;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+
+}
+
+input {
+    background: none;
+    border:none;
+    margin-left: 12px;
+    flex: 1;
+    outline: none;
+}
+button{
+    background-color: rgb(175, 173, 173);
+    margin-right: 5px;
+    border: none;
+    border-radius: 10px;
+    color: honeydew;
+    font-size:small;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 30px;
+    width: 50px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #008CBA;
+    color: white;
+}
+

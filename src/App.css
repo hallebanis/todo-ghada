@@ -1,0 +1,53 @@
+.App {
+  height: 100vh;
+  width: 100vw;
+  background-image: url('https://th.bing.com/th/id/R0cbad5753e8bf1ec20263da276bb9930?rik=vgxX%2fwgXp2jWXQ&riu=http%3a%2f%2freviewers.plos.org%2ffiles%2f2017%2f12%2fAbout_Yellow-Post-Its_Pexels_CC0-1024x617.jpeg&ehk=0HAGx6hKe1unkZ4%2b4kmzlK3kmprrXMVjsOlOC6rmaIs%3d&risl=&pid=ImgRaw');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  place-items: center;
+  
+}
+
+.container {
+  height : 600px;
+  width : 570px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('https://static.tildacdn.com/tild3036-3930-4233-b736-643933303931/stick2.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 12px;
+  padding: 30px 0;
+  opacity: 80%;
+  
+}
+
+img {
+  height: 90px;
+  width : 300px
+}
+
+
+
+.buttons{
+  margin: 20px;
+  display: flex;
+}
+
+.done-button {
+  width: 80px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(70, 70, 70);
+  color:rgb(255, 255, 255);
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.done-button:hover{
+  background-color: rgb(240, 176, 0);
+  color : rgb(0, 0, 0);
+  outline:  rgb(255, 255, 255);
+}
+
